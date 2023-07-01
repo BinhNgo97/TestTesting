@@ -1,0 +1,1332 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.18.1.5096",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Prism": "4.1.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoCoreNodes/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465",
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/Analysis.dll": {},
+          "lib/net47/DSCoreNodes.dll": {},
+          "lib/net47/GeometryColor.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.1.0.7465": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Tests/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.18.1.5096"
+        },
+        "compile": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "RevitTestFramework/1.19.23": {
+        "type": "package",
+        "compile": {
+          "lib/net47/_._": {}
+        },
+        "runtime": {
+          "lib/net47/RTFRevit.dll": {},
+          "lib/net47/RevitTestFrameworkTypes.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.18.1.5096",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Prism": "4.1.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoCoreNodes/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465",
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/Analysis.dll": {},
+          "lib/net47/DSCoreNodes.dll": {},
+          "lib/net47/GeometryColor.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.1.0.7465": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Tests/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.18.1.5096"
+        },
+        "compile": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "RevitTestFramework/1.19.23": {
+        "type": "package",
+        "compile": {
+          "lib/net47/_._": {}
+        },
+        "runtime": {
+          "lib/net47/RTFRevit.dll": {},
+          "lib/net47/RevitTestFrameworkTypes.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.18.1.5096",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Prism": "4.1.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoCoreNodes/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465",
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/Analysis.dll": {},
+          "lib/net47/DSCoreNodes.dll": {},
+          "lib/net47/GeometryColor.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.1.0.7465": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Tests/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.18.1.5096"
+        },
+        "compile": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "RevitTestFramework/1.19.23": {
+        "type": "package",
+        "compile": {
+          "lib/net47/_._": {}
+        },
+        "runtime": {
+          "lib/net47/RTFRevit.dll": {},
+          "lib/net47/RevitTestFrameworkTypes.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.18.1.5096",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Prism": "4.1.0",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DSCPython.dll": {},
+          "lib/net48/DesignScriptBuiltin.dll": {},
+          "lib/net48/DynamoApplications.dll": {},
+          "lib/net48/DynamoCore.dll": {},
+          "lib/net48/DynamoInstallDetective.dll": {},
+          "lib/net48/DynamoShapeManager.dll": {},
+          "lib/net48/DynamoUtilities.dll": {},
+          "lib/net48/ProtoCore.dll": {},
+          "lib/net48/VMDataBridge.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoCoreNodes/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465",
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/Analysis.dll": {},
+          "lib/net47/DSCoreNodes.dll": {},
+          "lib/net47/GeometryColor.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.1.0.7465": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Tests/2.18.1.5096": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.18.1.5096"
+        },
+        "compile": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DynamoCoreTests.dll": {},
+          "lib/net48/SystemTestServices.dll": {},
+          "lib/net48/TestServices.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.1.0.7465": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.1.0.7465"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "RevitTestFramework/1.19.23": {
+        "type": "package",
+        "compile": {
+          "lib/net47/_._": {}
+        },
+        "runtime": {
+          "lib/net47/RTFRevit.dll": {},
+          "lib/net47/RevitTestFrameworkTypes.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonServiceLocator/1.0.0": {
+      "sha512": "RJjv0yxm+Fk/ak/CVMTGr0ng7g/nudkVYos4eQrIDpth3BdE1j7J2ddRm8FXtOoIZbgDqTU6hKq5zoackwL3HQ==",
+      "type": "package",
+      "path": "commonservicelocator/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.1.0.0.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.XML",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.dll",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.pdb",
+        "lib/SL30/Microsoft.Practices.ServiceLocation.XML",
+        "lib/SL30/Microsoft.Practices.ServiceLocation.dll"
+      ]
+    },
+    "DynamoVisualProgramming.Core/2.18.1.5096": {
+      "sha512": "he+7JBfemRhrM8/3FsUgn0eDhPK+mdlOLMgvDydWlAAi4IFLvzZN2jiNcUCV8KlIHk7DwMcZ/MOFckz90QjWXQ==",
+      "type": "package",
+      "path": "dynamovisualprogramming.core/2.18.1.5096",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/DynamoCore.XML",
+        "content/images/logo.png",
+        "dynamovisualprogramming.core.2.18.1.5096.nupkg.sha512",
+        "dynamovisualprogramming.core.nuspec",
+        "lib/net48/DSCPython.dll",
+        "lib/net48/DesignScriptBuiltin.dll",
+        "lib/net48/DynamoApplications.dll",
+        "lib/net48/DynamoCore.dll",
+        "lib/net48/DynamoInstallDetective.dll",
+        "lib/net48/DynamoShapeManager.dll",
+        "lib/net48/DynamoUtilities.dll",
+        "lib/net48/ProtoCore.dll",
+        "lib/net48/VMDataBridge.dll"
+      ]
+    },
+    "DynamoVisualProgramming.DynamoCoreNodes/2.1.0.7465": {
+      "sha512": "zbdX6OASOZiABt+imADHEizfPgIgpRGwW6E/2arxirtWtgit9paRIuVsLmaORwOuV9RomWWOJQdJH4YfTskyLA==",
+      "type": "package",
+      "path": "dynamovisualprogramming.dynamocorenodes/2.1.0.7465",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/Analysis.xml",
+        "build/net47/DSCoreNodes.xml",
+        "build/net47/GeometryColor.xml",
+        "dynamovisualprogramming.dynamocorenodes.2.1.0.7465.nupkg.sha512",
+        "dynamovisualprogramming.dynamocorenodes.nuspec",
+        "lib/net47/Analysis.dll",
+        "lib/net47/DSCoreNodes.dll",
+        "lib/net47/GeometryColor.dll"
+      ]
+    },
+    "DynamoVisualProgramming.DynamoServices/2.1.0.7465": {
+      "sha512": "1BBasNvOPtZDY9c6R9KUuCUiiaRLaxwizvMAwtdgOwSKkyTHfNXh705eRV0P0/UjCFlss+Z+3nsIofG1LHcGSA==",
+      "type": "package",
+      "path": "dynamovisualprogramming.dynamoservices/2.1.0.7465",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/DynamoServices.XML",
+        "dynamovisualprogramming.dynamoservices.2.1.0.7465.nupkg.sha512",
+        "dynamovisualprogramming.dynamoservices.nuspec",
+        "lib/net47/DynamoServices.dll"
+      ]
+    },
+    "DynamoVisualProgramming.Tests/2.18.1.5096": {
+      "sha512": "0eC25AAZB/CaQerdWFqpZHjfgiZ5ia7XnjLPHL+E+6xO5jy5wnLTw+CdKPqTk8VWzhMjkjCAgG2neM1IDC3MGw==",
+      "type": "package",
+      "path": "dynamovisualprogramming.tests/2.18.1.5096",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/images/logo.png",
+        "dynamovisualprogramming.tests.2.18.1.5096.nupkg.sha512",
+        "dynamovisualprogramming.tests.nuspec",
+        "lib/net48/DynamoCoreTests.dll",
+        "lib/net48/SystemTestServices.dll",
+        "lib/net48/TestServices.dll"
+      ]
+    },
+    "DynamoVisualProgramming.ZeroTouchLibrary/2.1.0.7465": {
+      "sha512": "1dGSY70nGmvP3Bu1dYxwl/qTPhv+I/5JvGutu35hEm0mB4/1+BDAWI9/qwRVOxuBvrTSaJaWVZlN+jfGV1Cu+Q==",
+      "type": "package",
+      "path": "dynamovisualprogramming.zerotouchlibrary/2.1.0.7465",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/ProtoGeometry.XML",
+        "dynamovisualprogramming.zerotouchlibrary.2.1.0.7465.nupkg.sha512",
+        "dynamovisualprogramming.zerotouchlibrary.nuspec",
+        "lib/net47/DynamoUnits.dll",
+        "lib/net47/ProtoGeometry.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NUnit/3.13.3": {
+      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+      "type": "package",
+      "path": "nunit/3.13.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.13.3.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Prism/4.1.0": {
+      "sha512": "V4pNkp9iutnJToIkPKeHaVT5M2m9sWTgq2xLHPD51OAg5VNS9oTx4E/vZMdXMcPQwpHbHlF04T8fMLKZTo8S3g==",
+      "type": "package",
+      "path": "prism/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NET40/Microsoft.Expression.Interactions.dll",
+        "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/NET40/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/NET40/Microsoft.Practices.Prism.dll",
+        "lib/NET40/Microsoft.Practices.Prism.xml",
+        "lib/NET40/System.Windows.Interactivity.dll",
+        "lib/SL4/Microsoft.Expression.Interactions.dll",
+        "lib/SL4/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/SL4/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/SL4/Microsoft.Practices.Prism.dll",
+        "lib/SL4/Microsoft.Practices.Prism.xml",
+        "lib/SL4/System.Windows.Interactivity.dll",
+        "lib/SL5/Microsoft.Expression.Interactions.dll",
+        "lib/SL5/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/SL5/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/SL5/Microsoft.Practices.Prism.dll",
+        "lib/SL5/Microsoft.Practices.Prism.xml",
+        "lib/SL5/System.Windows.Interactivity.dll",
+        "prism.4.1.0.nupkg.sha512",
+        "prism.nuspec"
+      ]
+    },
+    "RevitTestFramework/1.19.23": {
+      "sha512": "OOhpXpW1bF2BrRsW6CrGXKWlTRwFxJ3KFuvIHSrcwxNVtfy7BSj+bQzsYEGNi2SToyW0JLaj7UpdhPwYBf9P+Q==",
+      "type": "package",
+      "path": "revittestframework/1.19.23",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net47/RTFRevit.dll",
+        "lib/net47/RevitTestFrameworkTypes.dll",
+        "revittestframework.1.19.23.nupkg.sha512",
+        "revittestframework.nuspec",
+        "tools/RTFRevit.dll",
+        "tools/RevitAddInUtility.dll",
+        "tools/RevitTestFrameworkConsole.exe",
+        "tools/RevitTestFrameworkGUI.exe",
+        "tools/RevitTestFrameworkTypes.dll",
+        "tools/Runner.dll",
+        "tools/empty.rfa",
+        "tools/licenses.txt"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "type": "package",
+      "path": "system.collections.immutable/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Collections.Immutable.dll",
+        "lib/net461/System.Collections.Immutable.xml",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.7.1.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "DynamoVisualProgramming.DynamoCoreNodes >= 2.1.*",
+      "DynamoVisualProgramming.DynamoServices >= 2.1.*",
+      "DynamoVisualProgramming.Tests >= 2.18.1.5096",
+      "DynamoVisualProgramming.ZeroTouchLibrary >= 2.1.*",
+      "NUnit >= 3.13.3",
+      "RevitTestFramework >= 1.19.23"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\TestTesting\\TestTesting\\TestTesting.csproj",
+      "projectName": "TestTesting",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\TestTesting\\TestTesting\\TestTesting.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\TestTesting\\TestTesting\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoCoreNodes": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.1.*, )"
+          },
+          "DynamoVisualProgramming.DynamoServices": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.1.*, )"
+          },
+          "DynamoVisualProgramming.Tests": {
+            "target": "Package",
+            "version": "[2.18.1.5096, )"
+          },
+          "DynamoVisualProgramming.ZeroTouchLibrary": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.1.*, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.13.3, )"
+          },
+          "RevitTestFramework": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.19.23, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: DynamoVisualProgramming.ZeroTouchLibrary from 2.18.1.5096 to 2.1.0.7465. Reference the package directly from the project to select a different version. \r\n TestTesting -> DynamoVisualProgramming.Tests 2.18.1.5096 -> DynamoVisualProgramming.Core 2.18.1.5096 -> DynamoVisualProgramming.ZeroTouchLibrary (>= 2.18.1.5096) \r\n TestTesting -> DynamoVisualProgramming.ZeroTouchLibrary (>= 2.1.0)",
+      "libraryId": "DynamoVisualProgramming.ZeroTouchLibrary",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}
